@@ -10,6 +10,52 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    }
+
+    /*Animacion letras con js
+    :root{
+        --logo: #1a1a1a;
+        --profesion: #f2f2f2;
+        --primario: #bbc1d6;
+    }
+    
+    .logo {
+        padding: 10px;
+        border: 5px solid var(--logo);
+        color: var(--profesion);
+    }
+
+    .logo .subt {
+        text-align: center;
+        color: #f1f1f1;
+        background: var(--primario);
+        padding: 12px 20px;
+        transition: .5s ease all;
+        font-size: 36px;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .logo .subt:hover {
+        background: plum ;
+    }
+
+    
+
+    fin animacion*/
+
+    .tit {
+        text-align: center;
+        text-justify: auto;
+        margin: auto;
+        font-size: 70px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(67, 241, 189);
+        
     }
 
 h1{
